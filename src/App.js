@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h5> Leage of Legends Player Search</h5>
+        <h2> Leage of Legends Player Search</h2>
+        <input type="text"></input>
+        <button>Search for Player</button>
       </div>
     </div>
   );
