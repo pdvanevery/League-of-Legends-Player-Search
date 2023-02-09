@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [searchText, setSearchText] = useState("")
-  console.log(searchText)
+  const API_KEY = process.env.LEAGUE_API_KEY
 
   return (
     <div className="App">
